@@ -1,0 +1,14 @@
+{
+  "name": "keshavsoft-task2",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "vite build",
+    "postbuild": "node scripts/fix-encoding.js",
+    "dev": "vite",
+    "start": "vite",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.3.0"
+  }
+}
